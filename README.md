@@ -4,7 +4,7 @@ link to the website - https://hemanath78.github.io/MFA-20221122-level-three/
 
 ### Level 3
 
-![Design preview for the NFT preview card component coding challenge](./design/level3.jpeg)
+![Design preview for the NFT preview card component coding challenge](./design/level3.png)
 
 ## Welcome! 👋
 
