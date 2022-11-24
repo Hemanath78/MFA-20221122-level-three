@@ -16,19 +16,19 @@ body {
 }
 
 
+/* 6 card items start */
 .main {
-    height: 800px;
+    height: 675px;
     width: 90%;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 
 .container {
     background-color: hsl(216, 50%, 16%);
     padding: 1.2em;
     border-radius: 10px;
-    margin: 2em .5em 2em 1em;
+    margin: 2em .5em 2.5em 1em;
 }
 
 .main .container .content-text .content-flex {
@@ -52,31 +52,32 @@ body {
 }
 
 .main .container .images img {
-    width: 275px;
+    width: 260px;
+    height: 300px;
     border-radius: 10px;
 }
 
 .container .content-text{
-    padding-top: 1em;
+    padding-top: 1.2em;
 }
 
 .container .content-text .title {
     color: hsl(0, 0%, 100%);
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 
 .container .content-text .desc {
-    padding-top: .5em;
+    padding-top: .7em;
     color: hsl(215, 51%, 70%);
-    width: 275px;
+    width: 260px;
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: .9rem;
 }
 
 .container .content-flex {
-    padding-top: 1em;
-    width: 275px;
+    padding-top: 1.5em;
+    width: 260px;
 }
 
 .container .content-flex .stock {
@@ -88,9 +89,9 @@ body {
 }
 
 .container .line {
-    margin: 1em 0;
+    margin: 1.2em 0;
     height: 1px;
-    width: 275px;
+    width: 260px;
     background-color: hsl(215, 51%, 70%);  
 }
 
@@ -104,79 +105,95 @@ body {
     color: hsl(215, 51%, 70%);
 }
 
+/* 6 card items end */
 
-.container-side {
-   position: relative;
-   left: 75%;
-   top: -42.5em;
-   margin-bottom: 2em;
+/* aside */
+
+.right-content {
+    display: flex;
+    flex-direction: column;
 }
 
-
-.container-side{
+.aside {
     width: 440px;
+    margin: 0 1em 0 1em;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+
+.aside1 {
+    margin: 2em 1em 2em 1em;
+}
+
+.aside2 {
+    margin: 1em 1em 2em 1em;
+}
+
+.aside .image-content img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.aside .image-content {
+    display: flex;
+    flex-direction: row;
     padding: 1em;
-    background-color:  hsl(216, 50%, 16%);
-    border-radius: 10px;
 }
-.container-side .image-content{
-    display: flex;
-    flex-direction: row;
-}
-
-.container-side .image-content img {
-    width: 150px;
-    border-radius: 10px;
-}
-
-.footer-side {
-    display: flex;
-    flex-direction: row;
-    padding: 1em 0;
-    align-items: center;
-
-}
-
-.footer-side .avatar {
-    width: 35px;
+.aside .image-content .side-content {
     margin-left: 1em;
-    border-radius: 50%;
-    border: 2px solid white;
+    margin-top: 1.5em;
 }
 
-.container-side .image-content p {
-    padding-left: 1.5em;
-}
-
-.container-side .image-content .title-side {
+.aside .image-content .side-content .title-side {
     color: hsl(0, 0%, 100%);
+    font-size: 1.2rem;
     font-weight: 400;
-    font-size: 1.4rem;
 }
 
-.container-side .image-content .desc-side {
+.aside .image-content .side-content .desc-side {
+    margin-top: 1.2em;
     color: hsl(215, 51%, 70%);
     font-weight: 300;
-    font-size: 1rem;
-    margin-top: 1em;
-    padding-left: 2em;
+    font-size: 1.1rem;
+}
+
+.footer-side{
+    padding: 0 1em 1em 1em;
+}
+
+.aside .footer-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} 
+
+.footer-side .profile {
+    width: 40px;
+    margin-left: 1em;
+    border: 2px solid white;
+    border-radius: 50%;
+    
 }
 
 .footer-side .stock-side {
-    color:  hsl(178, 100%, 50%);
-    font-size: .8rem;
+    color: hsl(178, 100%, 50%);
 }
 
-.footer-side .time-side{
+.footer-side .time-side {
     color: hsl(215, 51%, 70%);
-    padding-left: 1em;
-}
-
-.footer-side span{
-    color: hsl(215, 51%, 70%);
+    margin-left: 1em;
 }
 
 .footer-side .six {
-    color: white;
     margin-left: .5em;
+    color: hsl(0, 0%, 100%);
 }
+
+.footer-side .six span {
+    color: hsl(215, 51%, 70%);
+}
+
+
+
+
+
