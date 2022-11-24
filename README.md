@@ -1,16 +1,10 @@
 # Frontend Mentor - NFT preview card component
 
-### Level 1
-
-![Design preview for the NFT preview card component coding challenge](./design/desktop-design.jpg)
-
-### Level 2
-
-![Design preview for the NFT preview card component coding challenge](./design/desktop-design%20V2.jpeg)
+link to the website - https://hemanath78.github.io/MFA-20221122-level-three/
 
 ### Level 3
 
-![Design preview for the NFT preview card component coding challenge](./design/desktop-design%20V3.jpeg)
+![Design preview for the NFT preview card component coding challenge](./design/level3.jpeg)
 
 ## Welcome! 👋
 
